@@ -1,6 +1,7 @@
 {
     "name": "epajarito/system-historical-logs",
     "description": "Historial de cambios en modelos para Laravel",
+    "license": "MIT",
     "type": "project",
     "authors": [
         {
