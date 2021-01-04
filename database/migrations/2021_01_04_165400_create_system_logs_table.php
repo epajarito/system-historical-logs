@@ -25,7 +25,6 @@ class CreateSystemLogsTable extends Migration
             $table->json('new_value')->nullable();
             $table->string('ip_address');
             $table->timestamps();
-            $table->timestamps();
         });
     }
 
