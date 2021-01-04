@@ -15,6 +15,15 @@ composer require epajarito/system-historical-logs
 ```bash
 php artisan migrate
 ```
+## Uso
+```php
+use Epajarito\SystemHistoricalLogs\Traits\ModelLog;
+class SomeModel extends Model
+{
+    use ModelLog;
+}
+```
+
 ## Donaciones
 Si este proyecto te ayuda a reducir el tiempo de desarrollo, puedes comprarme una caguama 🍺
 
