@@ -24,4 +24,4 @@ Si este proyecto te ayuda a reducir el tiempo de desarrollo, puedes comprarme un
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 ## License
-[MIT](https://choosealicense.com/licenses/mit/)
+[MIT](./LICENSE.md)
