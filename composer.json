@@ -1,0 +1,30 @@
+{
+    "name": "epajarito/system-historical-logs",
+    "description": "Historial de cambios en modelos para Laravel",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Eduardo Pajarito",
+            "email": "laalocuautle@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.3 || ^8.0",
+        "illuminate/support": "^7|^8"
+    },
+    "autoload": {
+        "psr-4": {
+            "Epajarito\\SystemHistoricalLogs\\" : "src/"
+        }
+    },
+    "require-dev": {
+        "orchestra/testbench": "^6.7"
+    },
+    "extra": {
+        "laravel" : {
+            "providers" : [
+                "Epajarito\\SystemHistoricalLogs\\SystemHistoricalLogsServiceProvider"
+            ]
+        }
+    }
+}
