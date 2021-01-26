@@ -26,6 +26,9 @@
             "providers" : [
                 "Epajarito\\SystemHistoricalLogs\\SystemHistoricalLogsServiceProvider"
             ]
+        },
+        "branch-alias": {
+            "dev-master": "0.1-dev"
         }
     },
     "minimum-stability": "dev"
