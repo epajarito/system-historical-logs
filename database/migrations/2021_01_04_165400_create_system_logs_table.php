@@ -17,7 +17,7 @@ class CreateSystemLogsTable extends Migration
             $table->bigIncrements('id');
             $table->integer('system_logable_id');
             $table->string('system_logable_type');
-            $table->bigInteger('user_id');
+            $table->bigInteger('user_id')->nullable();
             $table->string('guard_name');
             $table->string('module_name');
             $table->string('action');
