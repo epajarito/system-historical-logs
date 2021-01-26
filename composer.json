@@ -27,5 +27,6 @@
                 "Epajarito\\SystemHistoricalLogs\\SystemHistoricalLogsServiceProvider"
             ]
         }
-    }
+    },
+    "minimum-stability": "dev"
 }
